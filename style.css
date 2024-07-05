@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+*{
+  color: white;
+}
+body {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+   /* color: #333; */
+   background-color: #000;
+  }
+
+.logo-png{
+  width: 50px;
+}  
+
+  .carousel {position: relative;}
+
+.carousel-inner {position: relative; width: 100%; overflow: hidden;}
+.navbar {
+  background: transparent;
+}
+  .nav-bar{
+    z-index: 999999;
+  }
+  .container{
+    background: transparent;
+  }
+.hero-section{
+width: 100%;
+
+  background-color: transparent;
+  color: white;
+}
+.hero-logo{
+  width: 500px;
+}
+  .hero-img{
+    width: 100%;
+    height: 100vh;
+  }
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+  .content-container{
+    width: 1090px;
+    height: 150vh ;
+    background-color: black;
+    margin-top: 50px;
+    display: grid;
+    row-gap: 20px;
+    column-gap: 5px;
+    grid-template-columns: 360px 360px 360px;
+    /* grid-template-rows: 250px 250px auto; */
+  }
+
+  .box{
+    border: #fff 2px solid;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center; */
+    text-align: center;
+    /* height: 250px; */
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8574601715686274) 11%, rgba(65,66,66,0.6389727766106443) 36%, rgba(86,85,81,0) 70%);
+  }
+  .box a{
+    text-decoration: none;
+    color: #fff;
+   bottom: 2px;
+   
+  }
+  
+  .box-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+     background-image: url(img/grid-img2.jpg);
+     background-size: cover;
+  }
+  .box-2{
+    /* grid-row: 1/4; */
+   }
+  .box-3{
+    grid-row: 2/5;
+    /* background-image: url(img/grid\ img1.jpg); */
+    background-size: cover;
+   }
+  .box-4{
+   /* grid-row: 1/4; */
+  }
+  .box-5{
+    /* grid-row: 1/4; */
+   }
+   .box-6{
+    /* grid-row: 1/4; */
+   }
+   .box-7{
+    /* grid-row: 1/4; */
+   }
+   .box-8{
+    /* grid-row: 1/4; */
+   }
+   .box-9{
+    /* grid-row: 1/4; */
+   }
+   .box-10{
+    /* grid-row: 1/4; */
+   }
+   .box-11{
+    /* grid-row: 1/4; */
+   }
+   .box-12{
+    /* grid-row: 1/4; */
+   }
+   .box-13{
+    /* grid-row: 1/4; */
+   }
+   .box-14{
+    /* grid-row: 1/4; */
+   }
+
+
+
+
+  /* ------------------------------------------ */
+
+  @media only screen and (max-width: 1024px){
+    .content-container{
+      display: flex;
+      flex-direction: column;
+    }
+  }
